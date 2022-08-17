@@ -10,6 +10,29 @@
 
 <body>
 
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBXLZBTr9_T3R_3Izm8VUjHVlAWZpBd_cE",
+    authDomain: "flapapp-af288.firebaseapp.com",
+    projectId: "flapapp-af288",
+    storageBucket: "flapapp-af288.appspot.com",
+    messagingSenderId: "136345975099",
+    appId: "1:136345975099:web:3e80a98311cb03e1779f1e",
+    measurementId: "G-V887YT29N3"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
     <div class="border-left"></div>
     <div class="game-container">
         <div class="border-top"></div>
